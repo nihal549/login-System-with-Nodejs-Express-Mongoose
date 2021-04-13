@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url('./images/reg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    margin-right:150px;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: centers;
+
+}
+.form-control{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-control label{
+    margin: 10px;
+    align-items: flex-start;
+    text-transform: capitalize;
+    text-shadow: 2px 2px black;
+    
+   
+}
+
+.form-control input{
+    border:0;
+    color:rgba(131, 226, 131, 0.692);
+    border-bottom: 2px solid red;
+    background-color: transparent;
+    font-size: 24px;
+   
+     width: 70%;
+
+}
+.form-control input:focus{
+outline: 0;
+border:0;
+background-color: transparent;
+text-shadow: none;
+color:rgba(131, 226, 131, 0.692);
+border-bottom: 2px solid blue;
+}
+button{
+    background-color: rgba(235, 41, 15, 0.884);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    width: 100px;
+    color: wheat;
+}
+button:active{
+    outline: 0;
+    border: 0
+}
+button:hover{
+    background-color: rgb(10, 39, 126);
+}
+h1{
+    text-align: center;
+}
+
+.status-text{
+    background-color: green;
+    text-align: center;
+    width: 200px;
+    border-radius: 2px;
+}

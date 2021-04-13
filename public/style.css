@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url('./images/pexels-photo-1.jpeg');
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+    color:red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border:3px solid rgba(226, 18, 18, 0.377);
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin-top: 100px;
+    position: relative;
+   
+}
+img{
+    height: 20%;
+    margin-bottom: 60px;
+}
+button{
+    background-color: rgba(235, 41, 15, 0.884);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    width: 100px;
+    color: wheat;
+}
+button:active{
+    outline: 0;
+    border: 0
+}
+button:hover{
+    background-color: rgb(10, 39, 126);
+}
+form label{
+    margin: 10px;
+    align-items: flex-start;
+    text-transform: capitalize;
+    text-shadow: 2px 2px black;
+   
+}
+
+form input{
+    border:0;
+    color:rgba(131, 226, 131, 0.692);
+    border-bottom: 2px solid red;
+    background-color: transparent;
+    font-size: 24px;
+  
+
+}
+form input:focus{
+outline: 0;
+border:0;
+background-color: transparent;
+text-shadow: none;
+color:rgba(131, 226, 131, 0.692);
+border-bottom: 2px solid blue;
+}
+
+
+p{
+    font-size: 18px;
+}
+a{
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+}
+
+.found{
+    background-color: green;
+    color: white;
+}
+.not-found{
+     background-color: red;
+    color: white;
+}
+
